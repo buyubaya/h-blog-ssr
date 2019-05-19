@@ -1,0 +1,122 @@
+.event-list {
+    .event-row {
+        position: relative;
+
+        &:nth-child(2n + 1) {
+            margin-right: calc(50% + 50px);
+
+            .event-item {
+                float: right;
+
+                &:before {
+                    right: -52px;
+                }
+
+                &:after {
+                    right: -56px;
+                }
+            }
+
+            .event-card {
+                border-right: 4px solid map-get($palette, dark);
+            }
+
+            @media (min-width: 768px) {
+                .event-time {
+                    position: absolute;
+                    left: calc(100% + 65px);
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+
+        &:nth-child(2n) {
+            margin-left: calc(50% + 50px);
+
+            .event-item {
+                &:before {
+                    left: -52px;
+                }
+
+                &:after {
+                    left: -56px;
+                }
+            }
+
+            .event-card {
+                border-left: 4px solid map-get($palette, dark);
+            }
+
+            @media (min-width: 768px) {
+                .event-time {
+                    position: absolute;
+                    right: calc(100% + 65px);
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+
+        .event-item {
+            width: 300px;
+            max-width: 100%;
+
+            .event-time {
+                font-size: 0.9em;
+            }
+
+            &:before {
+                content: '';
+                display: block;
+                width: 4px;
+                height: 100%;
+                background: map-get($palette, dark);
+                position: absolute;
+                top: 0;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background: #fff;
+                border: 2px solid map-get($palette, primary);
+                position: absolute;
+                top: calc(50% - 6px);
+            }
+        }
+    }
+}
+
+
+@media (max-width: 639px) {
+    .event-list {
+        .event-row {
+            margin-left: 50px !important;
+            margin-right: 0 !important;
+            padding: 10px 0;
+
+            .event-item {
+                float: none !important;
+
+                .event-card {
+                    border: none;
+                    border-left: 4px solid map-get($palette, dark);
+                }
+
+                &:before {
+                    right: initial;
+                    left: -52px;
+                }
+
+                &:after {
+                    right: initial;
+                    left: -56px;
+                }
+            }
+        }
+    }
+}
