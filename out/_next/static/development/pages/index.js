@@ -7070,48 +7070,48 @@ function (_React$Component) {
         className: "landing-page-container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "avatar-area",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "avatar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_components_Logo__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 18
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "avatar-name",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 21
         },
         __self: this
       }, "Hieu Le"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
         className: "avatar-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 22
         },
         __self: this
       }, "Front-end Developer"))));
@@ -7126,12 +7126,11 @@ function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                console.log('HOME PAGE INITIAL PROPS', ctx);
                 return _context.abrupt("return", {
                   page: 'home'
                 });
 
-              case 2:
+              case 1:
               case "end":
                 return _context.stop();
             }
@@ -7154,7 +7153,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 7:
+/***/ 0:
 /*!************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CHyu%20Lee%5CDesktop%5Ch-porfolio%5Ch-blog-ssr%5Cpages%5Cindex.js ***!
   \************************************************************************************************************************************************/
@@ -7177,5 +7176,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
