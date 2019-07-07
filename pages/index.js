@@ -1,23 +1,15 @@
 import React from 'react';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import Logo from '../components/Logo';
 import '../static/styles/App.scss';
-import '../static/styles/pages/landing.scss';
+import 'antd/dist/antd.css';
 
 
 class HomePage extends React.Component {
-    componentWillMount(){
-        // document.body.classList.add('is-landing-page');
-        // this.unlisten = this.props.history.listen((location, action) => {
-        //     if(location.pathname !== '/'){
-        //         document.body.classList.remove('is-landing-page');
-        //     }
-        // });
-    }
-
-    componentWillUnMount(){
-        // document.body.classList.remove('is-landing-page');
-        // this.unlisten();
-    }
+    static async getInitialProps(ctx) {
+        console.log('HOME PAGE INITIAL PROPS', ctx);
+        return { page: 'home' };
+	}
 
     render(){
         return(
