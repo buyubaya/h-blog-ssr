@@ -110,7 +110,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _constants_RouterUrls__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../constants/RouterUrls */ "./constants/RouterUrls.js");
 
-var _jsxFileName = "C:\\Users\\Hyu Lee\\Desktop\\h-porfolio\\h-blog-ssr\\components\\MainNavigator.js";
 
 
 
@@ -118,77 +117,26 @@ var _jsxFileName = "C:\\Users\\Hyu Lee\\Desktop\\h-porfolio\\h-blog-ssr\\compone
 var MainNavigator = function MainNavigator() {
   var data = _constants_RouterUrls__WEBPACK_IMPORTED_MODULE_3__["default"];
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    mode: "horizontal",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_0___default.a.Item, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
+    mode: "horizontal"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_0___default.a.Item, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/",
-    className: "logo-H",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
+    className: "logo-H"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("svg", {
-    viewBox: "0 0 80 100",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
+    viewBox: "0 0 80 100"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
     id: "logo-h",
-    d: "M5,5 \r l20,0 \r l0,50 \r l20,0 \r l0,20 \r l-20,0 \r l0,20 \r l-20,0 \r l0,-89",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
+    d: "M5,5 \r l20,0 \r l0,50 \r l20,0 \r l0,20 \r l-20,0 \r l0,20 \r l-20,0 \r l0,-89"
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("path", {
-    d: "M75,95 \r l-20,0 \r l0,-50 \r l-20,0 \r l0,-20 \r l20,0 \r l0,-20 \r l20,0 \r l0,89",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
+    d: "M75,95 \r l-20,0 \r l0,-50 \r l-20,0 \r l0,-20 \r l20,0 \r l0,-20 \r l20,0 \r l0,89"
   }))))), data.map(function (item) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(antd_lib_menu__WEBPACK_IMPORTED_MODULE_0___default.a.Item, {
-      key: item.key,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42
-      },
-      __self: this
+      key: item.key
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      href: item.path,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43
-      },
-      __self: this
+      href: item.path
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-      href: item.path,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43
-      },
-      __self: this
+      href: item.path
     }, item.label)));
   }));
 };
@@ -2682,7 +2630,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\Hyu Lee\\Desktop\\h-porfolio\\h-blog-ssr\\pages\\_document.js";
 
 
 
@@ -2714,44 +2661,9 @@ function (_Document) {
     // }
     value: function render() {
       var bodyClassName = this.props.bodyClassName;
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Html"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Head"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("body", {
-        className: bodyClassName.join(' '),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_MainNavigator__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Main"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["NextScript"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      })));
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Html"], null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Head"], null), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("body", {
+        className: bodyClassName.join(' ')
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_MainNavigator__WEBPACK_IMPORTED_MODULE_11__["default"], null), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["Main"], null), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_10__["NextScript"], null)));
     }
   }], [{
     key: "getInitialProps",

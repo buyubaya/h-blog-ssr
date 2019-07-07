@@ -196,7 +196,7 @@ class AboutPage extends React.Component {
                                     </div>
                                     <div className='skill-bar'>
                                         <span ref={el => this['skill_'+item.key] = el}>
-                                        <img className='skill-icon' src={`/static/images/${item.img}`} />
+                                        <img className='skill-icon' src={`static/images/${item.img}`} />
                                         </span>
                                     </div>
                                 </div>
@@ -215,7 +215,7 @@ class AboutPage extends React.Component {
                                                         {info.title}
                                                     </p>
                                                     <div className='skill-info-img'>
-                                                        <img src={`/static/images/${info.img}`} />
+                                                        <img src={`static/images/${info.img}`} />
                                                     </div>
                                                 </li>
                                             )

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Menu, Icon } from 'antd';
 import RouterUrls from '../constants/RouterUrls';
+const assetPrefix = '/h-blog-ssr';
 
 
 const MainNavigator = () => {
@@ -12,8 +13,8 @@ const MainNavigator = () => {
             mode='horizontal'
         >
             <Menu.Item>
-                <Link href='/'>
-                    <a href='/' className='logo-H'>
+                <Link href={assetPrefix}>
+                    <a href={assetPrefix} className='logo-H'>
                         <svg viewBox="0 0 80 100">
                         <path id="logo-h" d="M5,5 
                                 l20,0 
@@ -40,7 +41,7 @@ const MainNavigator = () => {
             {
                 data.map(item =>
                     <Menu.Item key={item.key}>
-                        <Link href={item.path}><a href={item.path}>{item.label}</a></Link>
+                        <Link href={assetPrefix + item.path}><a href={assetPrefix + item.path}>{item.label}</a></Link>
                     </Menu.Item>
                 )
             }

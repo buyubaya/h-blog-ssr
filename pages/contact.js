@@ -14,7 +14,6 @@ class ContactPage extends Component {
 	}
 
 	static async getInitialProps(ctx) {
-        console.log('CONTACT PAGE INITIAL PROPS', ctx);
         return { page: 'contact', pathname: ctx.pathname };
 	}
 

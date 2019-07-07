@@ -7,7 +7,6 @@ import 'antd/dist/antd.css';
 
 class HomePage extends React.Component {
     static async getInitialProps(ctx) {
-        console.log('HOME PAGE INITIAL PROPS', ctx);
         return { page: 'home' };
 	}
 
