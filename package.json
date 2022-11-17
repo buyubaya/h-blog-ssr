@@ -17,7 +17,7 @@
 		"lodash": "^4.17.11",
 		"moment": "^2.24.0",
 		"net": "^1.0.2",
-		"next": "^8.1.0",
+		"next": "^13.0.3",
 		"next-images": "^1.1.2",
 		"node-fetch": "^2.6.0",
 		"react": "^16.8.6",
@@ -38,7 +38,7 @@
 		"next-plugin-transpile-modules": "^2.0.0",
 		"node-sass": "^4.12.0",
 		"recompose": "^0.27.1",
-		"styled-jsx": "^3.2.1",
+		"styled-jsx": "^5.1.0",
 		"styled-jsx-plugin-less": "0.0.1-alpha.1",
 		"url-loader": "^2.0.1",
 		"webpack": "^4.35.0"
